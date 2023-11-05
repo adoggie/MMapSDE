@@ -1,0 +1,52 @@
+Microsoft eMbedded Visual Tools Workspace File, Format Version 4.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "SDELib"=".\SDELib.vcp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/04-ExecuteLib/04-Code/SDE/SDE", ZAAAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SDETest"=".\SDETest\SDETest.vcp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/04-ExecuteLib/04-Code/SDE/SDETest", HFBAAAAA
+    .\sdetest
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SDELib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

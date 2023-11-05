@@ -1,0 +1,109 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "DebugFunctionLib"=".\DebugFunctionLib\DebugFunctionLib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/SDE/DebugFunctionLib", ALEAAAAA
+    .\debugfunctionlib
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "FileDataStruct"=".\FileDataStruct\FileDataStruct.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/SDE/FileDataStruct", ILEAAAAA
+    .\filedatastruct
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MemoryMngLib"=".\MemoryMngLib\MemoryMngLib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/SDE/MemoryMngLib", UREAAAAA
+    .\memorymnglib
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SDELib"=".\Sde\SDELib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/SDE/SDELib", GSEAAAAA
+    .\sde
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DebugFunctionLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name FileDataStruct
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MemoryMngLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SDETest"=".\SdeTest\SDETest.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/SDE/SDETest", WAFAAAAA
+    .\sdetest
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SDELib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

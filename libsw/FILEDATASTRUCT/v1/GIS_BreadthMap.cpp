@@ -1,0 +1,24 @@
+// GIS_BreadthMap.cpp: implementation of the CGIS_BreadthMap class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "GIS_BreadthMap.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CGIS_BreadthMap::CGIS_BreadthMap( )
+{
+	m_nBreadthID = 0;
+	m_nBMID = 0;
+	m_nLoadCounter = 0;
+}
+
+CGIS_BreadthMap::~CGIS_BreadthMap()
+{
+	m_nBreadthID = 0;
+	m_nLoadCounter = 0;
+}
+

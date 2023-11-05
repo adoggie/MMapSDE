@@ -1,0 +1,15 @@
+<mapserver id="1" ice="" logfile="server.log" >	
+	<memheap>
+		<bucketset blocksize="4" bucketnum="10" bucketsize="1"/> <!--blocksize 4 equal 1<<4 ;bucketsize 1 equal 1MB,2 equal 2MB,as so on -->
+		<bucketset blocksize="6" bucketnum="10" bucketsize="1"/>
+		<bucketset blocksize="7" bucketnum="10" bucketsize="1"/>
+		<bucketset blocksize="8" bucketnum="10" bucketsize="1"/>
+		<bucketset blocksize="12" bucketnum="10" bucketsize="1"/>
+		<bucketset blocksize="14" bucketnum="10" bucketsize="1"/>
+		<bucketset blocksize="18" bucketnum="10" bucketsize="1"/>
+		<bucketset blocksize="20" bucketnum="2" bucketsize="2"/>
+	</memheap>
+	<maps path="r:">
+		<map name="china" id="1" file="china.gis"/>
+	</maps>
+</mapserver>

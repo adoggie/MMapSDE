@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "mapserver", "mapserver.vdproj", "{E9A28600-0A9B-45E7-9213-D94D187A84C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swWin32", "..\..\..\swWin32\swWin32.vcproj", "{96CC8632-4FB5-4CFF-9AC2-5DFC6A1D7CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9A28600-0A9B-45E7-9213-D94D187A84C5}.Debug|Win32.ActiveCfg = Debug
+		{E9A28600-0A9B-45E7-9213-D94D187A84C5}.Debug|Win32.Build.0 = Debug
+		{E9A28600-0A9B-45E7-9213-D94D187A84C5}.Release|Win32.ActiveCfg = Release
+		{E9A28600-0A9B-45E7-9213-D94D187A84C5}.Release|Win32.Build.0 = Release
+		{96CC8632-4FB5-4CFF-9AC2-5DFC6A1D7CFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96CC8632-4FB5-4CFF-9AC2-5DFC6A1D7CFF}.Debug|Win32.Build.0 = Debug|Win32
+		{96CC8632-4FB5-4CFF-9AC2-5DFC6A1D7CFF}.Release|Win32.ActiveCfg = Release|Win32
+		{96CC8632-4FB5-4CFF-9AC2-5DFC6A1D7CFF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

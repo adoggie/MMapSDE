@@ -1,0 +1,20 @@
+// GIS_NetworkRoadSectionV6.cpp: implementation of the CGIS_NetworkRoadSectionV6 class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "GIS_NetworkRoadSectionV6.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CGIS_NetworkRoadSectionV6::CGIS_NetworkRoadSectionV6()
+{
+
+}
+
+CGIS_NetworkRoadSectionV6::~CGIS_NetworkRoadSectionV6()
+{
+
+}

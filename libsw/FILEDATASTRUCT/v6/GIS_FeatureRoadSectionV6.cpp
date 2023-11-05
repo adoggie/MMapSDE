@@ -1,0 +1,20 @@
+// GIS_FeatureRoadSectionV6.cpp: implementation of the CGIS_FeatureRoadSectionV6 class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "GIS_FeatureRoadSectionV6.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CGIS_FeatureRoadSectionV6::CGIS_FeatureRoadSectionV6()
+{
+
+}
+
+CGIS_FeatureRoadSectionV6::~CGIS_FeatureRoadSectionV6()
+{
+
+}

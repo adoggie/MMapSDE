@@ -1,0 +1,1 @@
+“我们发现，目前正常工作的复杂系统总是从以前正常工作的简单系统演变而来的……从头开始设计的复杂系统总是不能正常工作，也无法通过修补来使其正常工作。您必须从正常工作的简单系统开始。”— John Gall 发表于 Systemantics: How Systems Really Work and How They Fail

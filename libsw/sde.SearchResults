@@ -1,0 +1,17 @@
+---- CGIS_ValueManager Matches (18 in 5 files) ----
+GIS_Message.cpp (sde):	m_pValueManager = new CGIS_ValueManager;
+GIS_Message.cpp (sde):CGIS_ValueManager* CGIS_Message::GetMessageData()
+GIS_Message.cpp (sde):BOOL CGIS_Message::SetValueManager(CGIS_ValueManager* pValueManager)
+GIS_Message.h (sde):	CGIS_ValueManager* m_pValueManager;
+GIS_Message.h (sde):	  virtual CGIS_ValueManager* GetMessageData();
+GIS_Message.h (sde):	  BOOL SetValueManager(CGIS_ValueManager* pValueManager);
+GIS_ValueManager.cpp (sde):// GIS_ValueManager.cpp: implementation of the CGIS_ValueManager class.
+GIS_ValueManager.cpp (sde):CGIS_ValueManager::CGIS_ValueManager()
+GIS_ValueManager.cpp (sde):CGIS_ValueManager::~CGIS_ValueManager()
+GIS_ValueManager.cpp (sde):BOOL CGIS_ValueManager::LoadAValue(CGIS_MessageValue* pMessageValue)
+GIS_ValueManager.cpp (sde):BOOL CGIS_ValueManager::UnLoadAValue(UINT ValueID)
+GIS_ValueManager.h (sde):// GIS_ValueManager.h: interface for the CGIS_ValueManager class.
+GIS_ValueManager.h (sde):class __declspec(dllexport) CGIS_ValueManager  
+GIS_ValueManager.h (sde):	CGIS_ValueManager();
+GIS_ValueManager.h (sde):	virtual ~CGIS_ValueManager();
+IGIS_Message.h (sde):	  virtual CGIS_ValueManager* GetMessageData() = 0;

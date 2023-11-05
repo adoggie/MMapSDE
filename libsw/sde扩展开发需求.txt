@@ -1,0 +1,9 @@
+1.图形绘制输出采用agg实现反走样
+2.封装agg功能，提供mfc的GDI绘制接口CDC，接口函数与CDC类函数完全兼容
+3.使用agg绘制svg功能
+4.sde的图形绘制接口函数采用wxDC类接口
+5.获取google 地图或者mapbar地图数据，协议可以是WFS或者WMS
+(http://www.opengis.net/wfs) - for the WFS interface vocabulary
+(http://www.opengis.net/gml) - for the GML vocabulary
+(http://www.opengis.net/ogc) - for the OGC Filter vocabulary
+http://www.opengeospatial.org
